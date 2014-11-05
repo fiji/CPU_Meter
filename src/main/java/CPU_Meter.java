@@ -3,16 +3,9 @@ import com.sun.jna.Native;
 import com.sun.jna.Platform;
 
 import ij.IJ;
-import ij.ImagePlus;
-
 import ij.gui.Plot;
 import ij.gui.PlotWindow;
-
 import ij.plugin.PlugIn;
-
-import ij.plugin.filter.PlugInFilter;
-
-import ij.process.ImageProcessor;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
