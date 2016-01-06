@@ -54,5 +54,4 @@
 			<artifactId>jna</artifactId>
 		</dependency>
 	</dependencies>
-
 </project>
