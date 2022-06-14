@@ -15,7 +15,7 @@ import java.awt.event.WindowEvent;
 public class CPU_Meter implements PlugIn {
 	public interface CLibrary extends Library {
 		CLibrary INSTANCE = (CLibrary)
-			Native.loadLibrary(Platform.isWindows() ? "msvcrt" : "c", CLibrary.class);
+			Native.load(Platform.isWindows() ? "msvcrt" : "c", CLibrary.class);
 
 		int getloadavg(double[] loadavg, int nelem);
 	}
