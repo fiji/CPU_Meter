@@ -11,7 +11,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>CPU_Meter</artifactId>
-	<version>2.0.2-SNAPSHOT</version>
+	<version>2.0.2</version>
 
 	<name>CPU Meter</name>
 	<description>CPU Meter plugin for Fiji.</description>
@@ -63,7 +63,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/fiji/CPU_Meter</connection>
 		<developerConnection>scm:git:git@github.com:fiji/CPU_Meter</developerConnection>
-		<tag>HEAD</tag>
+		<tag>CPU_Meter-2.0.2</tag>
 		<url>https://github.com/fiji/CPU_Meter</url>
 	</scm>
 	<issueManagement>
